@@ -1,4 +1,4 @@
-const stockList = require("../src/bookSeller");
+const stockList = require("../src/bookSeller.js");
 
 describe("stockList", () => {
   test("return a filter A", () => {
