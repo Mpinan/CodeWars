@@ -8,12 +8,13 @@ function stockList(listOfBooks, listOfCat) {
     listOfCat.forEach(letter => {
       if (letter == firstLetterOfList[0]) {
         console.log(letter);
-        return "(A : 200)";
-        // return `(${letter} : ${splitArray[1]})`;
+        return `(${letter} : ${splitArray[1]})`;
       }
+      return `(${letter} : ${splitArray[1]})`;
     });
+    return;
   });
-  return `(${letter} : ${splitArray[1]})`;
+  return;
 }
 
 module.exports = stockList;
